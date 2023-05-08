@@ -8,7 +8,7 @@ function Header(props) {
       />
       {props.token === "" ? (
         <a
-          href="https://accounts.spotify.com/authorize?response_type=token&client_id=f702a0640fac4e2ebb17f91691b971d1&scope=user-library-modify%20user-library-read&redirect_uri=https://spotify-add-album.netlify.app/"
+          href="https://accounts.spotify.com/authorize?response_type=token&client_id=f702a0640fac4e2ebb17f91691b971d1&scope=user-library-modify%20user-library-read&redirect_uri=https://spotify-add-album.netlify.app"
           className="account-link"
         >
           Login
